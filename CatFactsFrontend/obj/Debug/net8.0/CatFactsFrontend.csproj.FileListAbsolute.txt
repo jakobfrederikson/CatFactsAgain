@@ -1026,3 +1026,4 @@ F:\dev\CSharp\CatFactsAgain\CatFactsFrontend\obj\Debug\net8.0\CatFactsFrontend.d
 F:\dev\CSharp\CatFactsAgain\CatFactsFrontend\obj\Debug\net8.0\refint\CatFactsFrontend.dll
 F:\dev\CSharp\CatFactsAgain\CatFactsFrontend\obj\Debug\net8.0\CatFactsFrontend.pdb
 F:\dev\CSharp\CatFactsAgain\CatFactsFrontend\obj\Debug\net8.0\ref\CatFactsFrontend.dll
+F:\dev\CSharp\CatFactsAgain\CatFactsFrontend\obj\Debug\net8.0\CatFactsFrontend.sourcelink.json

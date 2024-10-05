@@ -31,3 +31,4 @@ F:\dev\CSharp\CatFactsAgain\CatFactsApi\obj\Debug\net8.0\refint\CatFactsApi.dll
 F:\dev\CSharp\CatFactsAgain\CatFactsApi\obj\Debug\net8.0\CatFactsApi.pdb
 F:\dev\CSharp\CatFactsAgain\CatFactsApi\obj\Debug\net8.0\CatFactsApi.genruntimeconfig.cache
 F:\dev\CSharp\CatFactsAgain\CatFactsApi\obj\Debug\net8.0\ref\CatFactsApi.dll
+F:\dev\CSharp\CatFactsAgain\CatFactsApi\obj\Debug\net8.0\CatFactsApi.sourcelink.json

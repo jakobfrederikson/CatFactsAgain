@@ -33,4 +33,15 @@ h1:focus {
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.loading-container {
+    min-height: 250px; /* Height of the cat GIF :) */
+}
+
+.text-center
+{
+    max-width: 600px; /* Stops the cat fact text from stretching to either side of the screen */
 }

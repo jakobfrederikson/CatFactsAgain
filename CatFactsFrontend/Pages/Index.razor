@@ -3,25 +3,26 @@
 
 <div class="d-flex justify-content-center align-items-center min-vh-100">
 	<div class="text-center">
-		<h3>Random Cat Fact</h3>
+		<h3 class="display-4 fw-bold">Random Cat Fact</h3>
 
 		@if (isLoading)
 		{
-			<div>
-				<p>Loading a new cat fact...</p>
+			<div class="my-3 loading-container">
+				<p class="lead">Loading a new cat fact...</p>
 				<img src="images/cat-what.gif" alt="Image a cat witha loading symbol" style="width: 250px; height: 250px;" />
 			</div>
 		}
 		else if (catFact != null)
 		{
-			<p>@catFact.Fact</p>
-			<p>String length: @catFact.Length</p>
+			<p class="lead">@catFact.Fact</p>
+			<p class="text-muted">String length: @catFact.Length</p>
 		}
+
 		<div>
-			<button @onclick="GetCatFact" disabled="@isLoading">Get New Cat Fact</button>
+			<button @onclick="GetCatFact" disabled="@isLoading" class="btn btn-primary btn-lg shadow-sm" >Get New Cat Fact</button>
 		</div>
 
-		<p>Facts from <a href="https://catfact.ninja" target="_blank" rel="noreferrer noopener">catfact.ninja</a></p>
+		<p class="mt-3">Facts from <a href="https://catfact.ninja" target="_blank" rel="noreferrer noopener">catfact.ninja</a></p>
 	</div>
 </div>
 
