@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yDKCgC5t3kOAkqSMutuBDWl8jBX0hQdF9z6rsCwYsFU=",
+  "Source": "CatFactsApi",
+  "BasePath": "_content/CatFactsApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "F:\\dev\\CSharp\\CatFactsAgain\\CatFactsFrontend\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "F:\\dev\\CSharp\\CatFactsAgain\\CatFactsFrontend\\obj\\Debug\\net8.0\\compressed\\p2ovellba4.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "F:\\dev\\CSharp\\CatFactsAgain\\CatFactsFrontend\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "F:\\dev\\CSharp\\CatFactsAgain\\CatFactsFrontend\\wwwroot\\images\\cat-what.gif",
+      "PackagePath": "staticwebassets\\images\\cat-what.gif"
+    },
+    {
+      "Id": "F:\\dev\\CSharp\\CatFactsAgain\\CatFactsFrontend\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CatFactsFrontend.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CatFactsFrontend.props",
+      "PackagePath": "build\\CatFactsFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CatFactsFrontend.props",
+      "PackagePath": "buildMultiTargeting\\CatFactsFrontend.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CatFactsFrontend.props",
+      "PackagePath": "buildTransitive\\CatFactsFrontend.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

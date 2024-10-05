@@ -1,0 +1,59 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<div class="d-flex justify-content-center align-items-center min-vh-100">
+	<div class="text-center">
+		<h3>Random Cat Fact</h3>
+
+		@if (isLoading)
+		{
+			<div>
+				<p>Loading a new cat fact...</p>
+				<img src="images/cat-what.gif" alt="Image a cat witha loading symbol" style="width: 250px; height: 250px;" />
+			</div>
+		}
+		else if (catFact != null)
+		{
+			<p>@catFact.Fact</p>
+			<p>String length: @catFact.Length</p>
+		}
+		<div>
+			<button @onclick="GetCatFact" disabled="@isLoading">Get New Cat Fact</button>
+		</div>
+
+		<p>Facts from <a href="https://catfact.ninja" target="_blank" rel="noreferrer noopener">catfact.ninja</a></p>
+	</div>
+</div>
+
+@code {
+	private CatFactModel? catFact;
+	private bool isLoading = true;
+
+	protected override async Task OnInitializedAsync()
+	{
+		await GetCatFact();
+	}
+
+	private async Task GetCatFact()
+	{
+		try
+		{
+			isLoading = true;
+			catFact = await Http.GetFromJsonAsync<CatFactModel>("/CatFacts");
+		}
+		catch (Exception ex)
+		{
+			catFact = new CatFactModel { Fact = "Unable to load cat fact", Length = 0 };
+	}
+		finally
+		{
+			isLoading = false;
+		}
+	}
+
+	public class CatFactModel
+	{
+		public required string Fact { get; set; }
+		public required int Length { get; set; }
+	}
+}
